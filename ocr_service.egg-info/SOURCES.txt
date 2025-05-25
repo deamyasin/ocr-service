@@ -1,0 +1,11 @@
+README.md
+setup.py
+ocr_service.egg-info/PKG-INFO
+ocr_service.egg-info/SOURCES.txt
+ocr_service.egg-info/dependency_links.txt
+ocr_service.egg-info/requires.txt
+ocr_service.egg-info/top_level.txt
+processors/__init__.py
+processors/ocr_processor.py
+task_queue/__init__.py
+task_queue/task_queue.py

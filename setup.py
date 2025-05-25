@@ -1,0 +1,25 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="ocr_service",
+    version="1.0.0",
+    packages=find_packages(),
+    install_requires=[
+        "fastapi==0.104.1",
+        "uvicorn==0.24.0",
+        "python-multipart==0.0.6",
+        "pytesseract==0.3.10",
+        "pdf2docx==0.5.6",
+        "docx2pdf==0.1.8",
+        "python-jose==3.3.0",
+        "redis==5.0.1",
+        "celery==5.3.4",
+        "Pillow==10.1.0",
+        "pdf2image==1.16.3",
+        "langdetect==1.0.9",
+        "tqdm==4.66.1",
+        "watchdog==3.0.0",
+        "pydantic==2.4.2",
+        "python-dotenv==1.0.0"
+    ],
+) 
